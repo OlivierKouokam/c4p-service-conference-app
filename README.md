@@ -1,25 +1,5 @@
-# Agenda Service
+# c4p-service-app
+[![C4P Service - Service Pipeline](https://github.com/eazytraining/agenda-service-app/actions/workflows/agenda-service-service-pipeline.yaml/badge.svg)](https://github.com/OlivierKouokam/c4p-service-conference-app/blob/main/.github/workflows/c4p-service-service-pipeline.yaml)
 
-## Endpoints
+[![c4p-service-api-conformance-test](https://github.com/eazytraining/agenda-service-app/actions/workflows/agenda-service-api-conformance.yaml/badge.svg)](https://github.com/OlivierKouokam/c4p-service-conference-app/blob/main/.github/workflows/c4p-service-api-conformance.yaml)
 
-- `/` POST 
-- `/` GET
-- `/` DELETE
-- `/{id}` GET
-- `/{id}` DELETE
-- `/highlights` GET
-- `/day/{day}` GET
-- `/health/readiness` GET
-- `/health/liveness` GET
-
-
-## Build & Run from source
-
-```shell
-docker-compose up 
-```
-
-```shell
-go run c4p-service.go
-```
-## Create Container

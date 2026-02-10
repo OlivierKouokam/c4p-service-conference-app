@@ -4,8 +4,6 @@ env:
 
 on:
   push:
-    paths:
-      - 'c4p-service/**'
     branches: ['main']
 
 jobs:
